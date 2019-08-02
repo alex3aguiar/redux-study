@@ -1,0 +1,21 @@
+.App {
+  text-align: center;
+}
+
+.caixa{
+  width: 100px;
+  height: 100px;
+  background-color: burlywood;
+  margin: 10px;
+  position: absolute;
+  cursor: move;
+  border-radius: 300px;
+}
+
+.caixa:active{
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
